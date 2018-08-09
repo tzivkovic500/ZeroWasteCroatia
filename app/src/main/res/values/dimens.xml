@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--list_item dimension -->
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <!-- Null size for layout weight -->
+    <dimen name="nullSize">0dp</dimen>
+    <dimen name="circle_image_size">88dp</dimen>
+    <dimen name="circle_image_border">2dp</dimen>
+    <dimen name="name_text_size">18sp</dimen>
+    <dimen name="type_text_size">14sp</dimen>
+    <dimen name="icon_image_size">32dp</dimen>
+    <dimen name="food_text_margin_top">8dp</dimen>
+</resources>

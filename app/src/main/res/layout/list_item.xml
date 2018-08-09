@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/layout_style1"
+    android:animateLayoutChanges="true"
+    android:background="@color/titleColor"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/expanded_layout"
+        style="@style/layout_style1">
+
+        <RelativeLayout
+            style="@style/layout_style1"
+            android:padding="@dimen/list_item_padding">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/circle_image_size"
+                android:layout_height="@dimen/circle_image_size"
+                android:layout_centerVertical="true"
+                app:civ_border_color="@color/titleColor"
+                app:civ_border_width="@dimen/circle_image_border" />
+
+            <LinearLayout
+                android:id="@+id/text_container"
+                style="@style/layout_style2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/image"
+                android:orientation="vertical"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:id="@+id/place_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/name_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/place_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_below="@id/place_name"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/type_text_size" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/info_button"
+                style="@style/layout_style2"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/baseline_info_white_24"  />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <!-- Collapsed/Expanded Layout -->
+    <LinearLayout
+        android:id="@+id/collapsed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@color/colorTextPrimary"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/location"
+            style="@style/place_info_layout_style">
+
+            <ImageView
+                style="@style/icon_image_style"
+                android:src="@drawable/baseline_location_on_white_24" />
+
+            <TextView
+                android:id="@+id/test_info"
+                style="@style/place_info_text_style"
+                android:text="@string/place_location" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/website"
+            style="@style/place_info_layout_style">
+
+            <ImageView
+                style="@style/icon_image_style"
+                android:src="@drawable/baseline_open_in_browser_white_24" />
+
+            <TextView
+                style="@style/place_info_text_style"
+                android:text="@string/website"                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zero_back"
+            style="@style/place_info_layout_style">
+
+            <ImageView
+                style="@style/icon_image_style"
+                android:src="@drawable/baseline_arrow_back_white_24" />
+
+            <TextView
+                style="@style/place_info_text_style"
+                android:text="@string/back"        />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

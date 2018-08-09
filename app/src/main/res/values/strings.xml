@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ZeroWasteCroatia</string>
+    <string name="place_location">Location</string>
+    <string name="website">Website</string>
+    <string name="back">Back</string>
+    <!-- Category name for ZeroWaste-->
+    <string name="category_zero">Zero waste</string>
+    <!-- Category name for About us -->
+    <string name="category_about">About Us</string>
+    <!-- Category name for the Shop List-->
+    <string name="category_shop">Shop List</string>
+    <string name="contact">Contact Us/Add new shop</string>
+
+    <string name="phone">0038591 506 4529</string>
+    <string name="email"></string>
+    <string name="speceraj">Speceraj</string>
+    <string name="food1">Food</string>
+    <string name="loc1">https://goo.gl/maps/jKPfE2Vyset</string>
+    <string name="web1">https://www.facebook.com/speceraj.hr/</string>
+    <string name="greencajg">Greencajg</string>
+    <string name="food2">Food</string>
+    <string name="loc2">https://goo.gl/maps/EubceDoq6VA2</string>
+    <string name="web2">https://www.facebook.com/pg/Greencajg/photos/?ref=page_internal</string>
+    <string name="hiza">Eko hiza</string>
+    <string name="food3">Food</string>
+    <string name="loc3">https://goo.gl/maps/b95GjevN8ZB2</string>
+    <string name="web3">https://www.facebook.com/ekohiza/</string>
+
+</resources>

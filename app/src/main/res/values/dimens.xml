@@ -11,4 +11,5 @@
     <dimen name="type_text_size">14sp</dimen>
     <dimen name="icon_image_size">32dp</dimen>
     <dimen name="food_text_margin_top">8dp</dimen>
+    <dimen name="image_button_size">80dp</dimen>
 </resources>

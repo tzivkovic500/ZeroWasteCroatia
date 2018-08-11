@@ -10,7 +10,6 @@
     <!-- Category name for the Shop List-->
     <string name="category_shop">Shop List</string>
     <string name="contact">Contact Us/Add new shop</string>
-
     <string name="phone">0038591 506 4529</string>
     <string name="email"></string>
     <string name="speceraj">Speceraj</string>
@@ -25,5 +24,6 @@
     <string name="food3">Food</string>
     <string name="loc3">https://goo.gl/maps/b95GjevN8ZB2</string>
     <string name="web3">https://www.facebook.com/ekohiza/</string>
+    <string name="add_new_place">ADD NEW PLACE</string>
 
 </resources>

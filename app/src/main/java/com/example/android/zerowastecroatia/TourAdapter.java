@@ -1,4 +1,5 @@
 package com.example.android.zerowastecroatia;
+
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -12,26 +13,32 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import java.util.ArrayList;
+
 import static android.support.v4.content.ContextCompat.startActivity;
 
 /**
  * Created by Tea on 2.8.2018..
  */
 public class TourAdapter extends ArrayAdapter<Tour> {
-    /** Resource ID for the background color */
+    /**
+     * Resource ID for the background color
+     */
     private int mColorResourceId;
+
     /**
      * Create a new {@link TourAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param tour is the list of {@link Tour}s to be displayed.
+     * @param context         is the current context (i.e. Activity) that the adapter is being created in.
+     * @param tour            is the list of {@link Tour}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of tour
      */
     public TourAdapter(Context context, ArrayList<Tour> tour, int colorResourceId) {
         super(context, 0, tour);
         mColorResourceId = colorResourceId;
     }// Get the {@link Tour} object located at this position in the list
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
@@ -47,7 +54,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         ImageView expand = listItemView.findViewById(R.id.info_button);
         LinearLayout goBack = listItemView.findViewById(R.id.zero_back);
         final FrameLayout expandedLayout = listItemView.findViewById(R.id.expanded_layout);
-        final LinearLayout infoLayout= listItemView.findViewById(R.id.collapsed_layout);
+        final LinearLayout infoLayout = listItemView.findViewById(R.id.collapsed_layout);
         expand.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,9 +87,9 @@ public class TourAdapter extends ArrayAdapter<Tour> {
             @Override
             public void onClick(View view) {
                 Uri gmmIntentUri = Uri.parse(currentTour.getLocationId());
-                Intent mapIntent = new Intent (Intent.ACTION_VIEW, gmmIntentUri);
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(getContext(),mapIntent, Bundle.EMPTY);
+                startActivity(getContext(), mapIntent, Bundle.EMPTY);
             }
         });
         // When web icon is clicked, shows web page.
@@ -91,7 +98,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
             public void onClick(View view) {
                 Uri iIntentUri = Uri.parse(currentTour.getUrlId());
                 Intent i = new Intent(Intent.ACTION_VIEW, iIntentUri);
-                startActivity(getContext(),i, Bundle.EMPTY);
+                startActivity(getContext(), i, Bundle.EMPTY);
             }
         });
         // Set the theme color for the list item.

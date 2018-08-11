@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+
 import java.util.ArrayList;
 
 
@@ -16,15 +17,16 @@ import java.util.ArrayList;
 public class ShopFragment extends Fragment {
     public ShopFragment() {
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // // Create a list of  places to eat
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.speceraj, R.string.speceraj, R.string.food1, getString(R.string.loc1),getString(R.string.web1)));
-        tour.add(new Tour(R.drawable.greencajg, R.string.greencajg, R.string.food2, getString(R.string.loc2),getString(R.string.web2)));
-        tour.add(new Tour(R.drawable.hiza, R.string.hiza, R.string.food3, getString(R.string.loc3),getString(R.string.web3)));
+        tour.add(new Tour(R.drawable.speceraj, R.string.speceraj, R.string.food1, getString(R.string.loc1), getString(R.string.web1)));
+        tour.add(new Tour(R.drawable.greencajg, R.string.greencajg, R.string.food2, getString(R.string.loc2), getString(R.string.web2)));
+        tour.add(new Tour(R.drawable.hiza, R.string.hiza, R.string.food3, getString(R.string.loc3), getString(R.string.web3)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

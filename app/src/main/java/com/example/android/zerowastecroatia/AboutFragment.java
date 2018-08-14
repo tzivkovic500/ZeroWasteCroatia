@@ -68,7 +68,7 @@ public class AboutFragment extends Fragment {
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setData(Uri.parse("mailto:zerowastecroatia1@gmail.com")); // only email apps should handle this
                 intent.putExtra(Intent.EXTRA_SUBJECT, "New Zero Waste place for list");
-                intent.putExtra(Intent.EXTRA_TEXT, "Hi! You want to add New Zero Waste place? Fill this application:" + "\nPlace name:" + "\nPlace address:" + "\nweb/facebook:" + "\nType (food, cosmetics...):" + "\nThank you!" + "\nZero Waste Croatia");
+                intent.putExtra(Intent.EXTRA_TEXT, "Hi! You want to add New Zero Waste place? Fill this application:" + "\nPlace name:" + "\nPlace address:" + "\nweb/facebook:" + "\nType (food, cosmetics...):" + "\nThank you!" + "\nZero Waste Croatia Team");
                 {
                     startActivity(intent);
                 }

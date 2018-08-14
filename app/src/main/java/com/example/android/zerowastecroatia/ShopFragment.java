@@ -27,6 +27,9 @@ public class ShopFragment extends Fragment {
         tour.add(new Tour(R.drawable.speceraj, R.string.speceraj, R.string.food1, getString(R.string.loc1), getString(R.string.web1)));
         tour.add(new Tour(R.drawable.greencajg, R.string.greencajg, R.string.food2, getString(R.string.loc2), getString(R.string.web2)));
         tour.add(new Tour(R.drawable.hiza, R.string.hiza, R.string.food3, getString(R.string.loc3), getString(R.string.web3)));
+        tour.add(new Tour(R.drawable.mali_vrt, R.string.mali_vrt, R.string.food4, getString(R.string.loc4), getString(R.string.web4)));
+        tour.add(new Tour(R.drawable.neo_cupedia, R.string.neo_cupedia, R.string.food5, getString(R.string.loc5), getString(R.string.web5)));
+        tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.food6, getString(R.string.loc6), getString(R.string.web6)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

@@ -8,7 +8,7 @@
     <!-- Category name for About us -->
     <string name="category_about">About Us</string>
     <!-- Category name for the Shop List-->
-    <string name="category_shop">Shop List</string>
+    <string name="category_shop">Zero Waste List</string>
     <string name="contact">Contact Us/Add new shop</string>
     <string name="phone">0038591 506 4529</string>
     <string name="email"></string>
@@ -36,6 +36,34 @@
     <string name="food6">Food</string>
     <string name="loc6">https://goo.gl/maps/APD3JDpAXCM2</string>
     <string name="web6">http://www.garden.hr/</string>
+    <string name="agrokutic">Agrokutic</string>
+    <string name="food7">Food</string>
+    <string name="loc7">https://goo.gl/maps/asqnAvoAmWU2</string>
+    <string name="web7">https://www.facebook.com/pg/agrokutic/posts/?ref=page_internal</string>
+    <string name="zabac">Zabac</string>
+    <string name="food8">Food</string>
+    <string name="loc8">https://goo.gl/maps/K49gfJZL5Cq</string>
+    <string name="web8">https://www.facebook.com/zabacfoodoutlet/</string>
+    <string name="kredenca_zdravlja">Kredenca zdravlja</string>
+    <string name="food9">Food</string>
+    <string name="loc9">https://goo.gl/maps/wv2VGy2A1VQ2</string>
+    <string name="web9">https://www.kredencazdravlja.hr/</string>
+    <string name="vrutak">Vrutak</string>
+    <string name="food10">Food</string>
+    <string name="loc10">https://goo.gl/maps/vmVMvyqAxpD2</string>
+    <string name="web10">http://www.vrutak.hr/intro.aspx</string>
+    <string name="zrno_zivota">Zrno zivota</string>
+    <string name="food11">Food</string>
+    <string name="loc11">https://goo.gl/maps/BP9LumsuR5w</string>
+    <string name="web11">https://www.facebook.com/zrnozivotast/</string>
+    <string name="silvan">Silvan</string>
+    <string name="food12">Natural cosmetics webShop</string>
+    <string name="loc12">https://www.google.com/maps/place</string>
+    <string name="web12">https://www.silvan.hr/</string>
+    <string name="ljubav_pirode">Ljubav prirode</string>
+    <string name="food13">Cosmetics</string>
+    <string name="loc13">https://goo.gl/maps/Y1GvNF777YE2</string>
+    <string name="web13">https://www.facebook.com/LjubavPrirodebyDanchi/</string>
     <!-- SendButton text-->
     <string name="add_new_place">ADD NEW PLACE</string>
 

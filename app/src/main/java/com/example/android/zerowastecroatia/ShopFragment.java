@@ -31,6 +31,13 @@ public class ShopFragment extends Fragment {
         tour.add(new Tour(R.drawable.neo_cupedia, R.string.neo_cupedia, R.string.food5, getString(R.string.loc5), getString(R.string.web5)));
         tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.food6, getString(R.string.loc6), getString(R.string.web6)));
 
+        tour.add(new Tour(R.drawable.agrokutic, R.string.agrokutic, R.string.food7, getString(R.string.loc7), getString(R.string.web7)));
+        tour.add(new Tour(R.drawable.zabac, R.string.zabac, R.string.food8, getString(R.string.loc8), getString(R.string.web8)));
+        tour.add(new Tour(R.drawable.kredenca_zdravlja, R.string.kredenca_zdravlja, R.string.food9, getString(R.string.loc9), getString(R.string.web9)));
+        tour.add(new Tour(R.drawable.vrutak, R.string.vrutak, R.string.food10, getString(R.string.loc10), getString(R.string.web10)));
+        tour.add(new Tour(R.drawable.zrno_zivota, R.string.zrno_zivota, R.string.food11, getString(R.string.loc11), getString(R.string.web11)));
+        tour.add(new Tour(R.drawable.silvan, R.string.silvan, R.string.food12, getString(R.string.loc12), getString(R.string.web12)));
+        tour.add(new Tour(R.drawable.ljubav_prirode, R.string.ljubav_pirode, R.string.food13, getString(R.string.loc13), getString(R.string.web13)));
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_shop);

@@ -3,6 +3,7 @@
     <!--list_item dimension -->
     <dimen name="list_item_padding">16dp</dimen>
     <dimen name="list_item_height">88dp</dimen>
+
     <!-- Null size for layout weight -->
     <dimen name="nullSize">0dp</dimen>
     <dimen name="circle_image_size">88dp</dimen>

@@ -2,13 +2,15 @@
     <string name="app_name">ZeroWasteCroatia</string>
     <string name="place_location">Location</string>
     <string name="website">Website</string>
+    <string name="webshop">Webshop</string>
     <string name="back">Back</string>
     <!-- Category name for ZeroWaste-->
-    <string name="category_zero">Zero waste</string>
+    <string name="category_zero">Zero Waste</string>
     <!-- Category name for About us -->
     <string name="category_about">About Us</string>
     <!-- Category name for the Shop List-->
-    <string name="category_shop">Zero Waste List</string>
+    <string name="category_shop">Shop List</string>
+    <string name="category_webshop">Web Shop</string>
     <string name="contact">Contact Us/Add new shop</string>
     <string name="phone">0038591 506 4529</string>
     <string name="email"></string>
@@ -64,6 +66,24 @@
     <string name="food13">Cosmetics</string>
     <string name="loc13">https://goo.gl/maps/Y1GvNF777YE2</string>
     <string name="web13">https://www.facebook.com/LjubavPrirodebyDanchi/</string>
+    <string name="refuzo">Refuzo</string>
+    <string name="food14">Food</string>
+    <string name="loc14">https://goo.gl/maps/AQKngQwqkDN2</string>
+    <string name="web14">https://www.facebook.com/refuzo/</string>
+    <string name="zdravi_ducan">Zdravi ducan</string>
+    <string name="food15">Food</string>
+    <string name="loc15">https://goo.gl/maps/uaR7bEhGG5v</string>
+    <string name="web15">https://www.facebook.com/zdravi.ducan/</string>
+    <string name="witch_house">Witch house</string>
+    <string name="food16">Tea and spices</string>
+    <string name="loc16">https://goo.gl/maps/852tiwRMUNK2</string>
+    <string name="web16">https://www.facebook.com/biowitchhouse/</string>
+    <string name="uberi_ovo">Uberi ovo</string>
+    <string name="food17">Food</string>
+    <string name="loc17">https://goo.gl/maps/SyqZndGgLJy</string>
+    <string name="web17">https://uberiovo.hr/</string>
+
+
     <!-- SendButton text-->
     <string name="add_new_place">ADD NEW PLACE</string>
 

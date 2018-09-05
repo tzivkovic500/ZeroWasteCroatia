@@ -51,11 +51,11 @@ public class WebTourAdapter extends ArrayAdapter<WebTour> {
         // the ListView.
         final WebTour newTour = getItem(position);
         // Find the ImageView in the list_item.xml layout with the ID image_view.
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.wimage);
         // Find the TextView in the list_item.xml layout with the ID default_text_view.
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.place_name);
+        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.wplace_name);
         // Find the web in the list_item.xml layout with the ID web.
-        LinearLayout website = listItemView.findViewById(R.id.website);
+        LinearLayout website = listItemView.findViewById(R.id.web_button);
         imageView.setImageResource(newTour.getImageResourceId());
         defaultTextView.setText(newTour.getTextResourceId());
 
@@ -71,7 +71,7 @@ public class WebTourAdapter extends ArrayAdapter<WebTour> {
             }
         });
         // Set the theme color for the list item.
-        View textContainer = listItemView.findViewById(R.id.text_container);
+        View textContainer = listItemView.findViewById(R.id.wtext_container);
         // Find the color that the resource ID maps to
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View

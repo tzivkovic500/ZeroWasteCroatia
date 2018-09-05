@@ -9,33 +9,33 @@ public class WebTour {
     /**
      * String resource ID for the image of the place
      */
-    private int mImageResourceId;
+    private int wImageResourceId;
     /**
      * String resource ID for the name of the place
      */
-    private int mTextResourceId;
+    private int wTextResourceId;
 
     /**
      * String resource ID for the web of the place
      */
-    private String mUrlId;
+    private String wUrlId;
 
     public WebTour(int imageResourceId, int textResourceId, String urlId) {
-        mImageResourceId = imageResourceId;
-        mTextResourceId = textResourceId;
-        mUrlId = urlId;
+        wImageResourceId = imageResourceId;
+        wTextResourceId = textResourceId;
+        wUrlId = urlId;
     }
 
     public int getImageResourceId() {
-        return mImageResourceId;
+        return wImageResourceId;
     }
 
     public int getTextResourceId() {
-        return mTextResourceId;
+        return wTextResourceId;
     }
 
     public String getUrlId() {
-        return mUrlId;
+        return wUrlId;
     }
 }
 

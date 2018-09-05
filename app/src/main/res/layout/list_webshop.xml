@@ -4,59 +4,49 @@
     style="@style/layout_style1"
     android:animateLayoutChanges="true"
     android:background="@color/titleColor"
-    android:orientation="vertical">
-
-    <RelativeLayout
-        style="@style/layout_style1"
-        android:padding="@dimen/list_item_padding">
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/image"
-            android:layout_width="@dimen/circle_image_size"
-            android:layout_height="@dimen/circle_image_size"
-            android:layout_centerVertical="true"
-            app:civ_border_color="@color/titleColor"
-            app:civ_border_width="@dimen/circle_image_border" />
-
-        <LinearLayout
-            android:id="@+id/text_container"
-            style="@style/layout_style2"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@id/image"
-            android:orientation="vertical"
-            android:paddingLeft="16dp">
-
-            <TextView
-                android:id="@+id/place_name"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_weight="1"
-                android:gravity="bottom"
-                android:textAllCaps="true"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/name_text_size"
-                android:textStyle="bold" />
+    android:orientation="horizontal">
 
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/wimage"
+        android:layout_width="@dimen/circle_image_size"
+        android:layout_height="@dimen/circle_image_size"
+        android:layout_centerVertical="true"
+        app:civ_border_color="@color/titleColor"
+        app:civ_border_width="@dimen/circle_image_border" />
 
-        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/wtext_container"
+        style="@style/layout_style2"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
 
-        <LinearLayout
-            android:id="@+id/web_button"
-            style="@style/place_info_layout_style">
+        <TextView
+            android:id="@+id/wplace_name"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/name_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
 
-            <ImageView
-                style="@style/icon_image_style"
-                android:src="@drawable/baseline_open_in_browser_white_24" />
+    <LinearLayout
+        style="@style/layout_style2"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:id="@+id/web_button"        >
 
-            <TextView
-                style="@style/place_info_text_style"
-                android:text="@string/webshop" />
-        </LinearLayout>
+        <ImageView
+            style="@style/icon_image_style"
+            android:src="@drawable/baseline_open_in_browser_black_24" />
 
-    </RelativeLayout>
+        <TextView
+            style="@style/place_info_text_style"
+            android:text="@string/webshop" />
+    </LinearLayout>
 
 </LinearLayout>

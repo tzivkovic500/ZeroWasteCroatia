@@ -10,5 +10,6 @@
     <color name="titleColor">#FFFFFF</color>
     <!-- Background color for the reside category -->
     <color name="category_shop">#379237</color>
+    <color name="category_webshop">#379237</color>
 
 </resources>

@@ -24,6 +24,10 @@ public class WebShopFragment extends Fragment{
         // // Create a list of  places to eat
         final ArrayList<WebTour> web_tour = new ArrayList<WebTour>();
         web_tour.add(new WebTour(R.drawable.silvan, R.string.silvan, getString(R.string.web12)));
+        web_tour.add(new WebTour(R.drawable.mali_studio, R.string.mali_studio, getString(R.string.web18)));
+        web_tour.add(new WebTour(R.drawable.freewa, R.string.freewa, getString(R.string.web20)));
+        web_tour.add(new WebTour(R.drawable.bio_root, R.string.bio_root, getString(R.string.web21)));
+        web_tour.add(new WebTour(R.drawable.sattva, R.string.sattva, getString(R.string.web23)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

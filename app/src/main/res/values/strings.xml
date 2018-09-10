@@ -59,8 +59,6 @@
     <string name="loc11">https://goo.gl/maps/BP9LumsuR5w</string>
     <string name="web11">https://www.facebook.com/zrnozivotast/</string>
     <string name="silvan">Silvan</string>
-    <string name="food12">Natural cosmetics webShop</string>
-    <string name="loc12">https://www.google.com/maps/place</string>
     <string name="web12">https://www.silvan.hr/</string>
     <string name="ljubav_pirode">Ljubav prirode</string>
     <string name="food13">Cosmetics</string>
@@ -82,6 +80,22 @@
     <string name="food17">Food</string>
     <string name="loc17">https://goo.gl/maps/SyqZndGgLJy</string>
     <string name="web17">https://uberiovo.hr/</string>
+    <string name="mali_studio">Mali studio</string>
+    <string name="web18">https://www.malistudio.hr/</string>
+    <string name="humana_nova">Humana nova</string>
+    <string name="food19">Social Cooperative</string>
+    <string name="loc19">https://goo.gl/maps/g3449CM4B5L2</string>
+    <string name="web19">http://www.humananova.org/hr/home/</string>
+    <string name="freewa">Freewa</string>
+    <string name="web20">https://freewa.org/</string>
+    <string name="bio_root">Bio root</string>
+    <string name="web21">https://bioroot.hr/</string>
+    <string name="naj_caj">Naj caj</string>
+    <string name="food22">Food</string>
+    <string name="loc22">https://goo.gl/maps/A3U5Z3Ve3H72</string>
+    <string name="web22">https://www.facebook.com/najcaj/</string>
+    <string name="sattva">Sattva</string>
+    <string name="web23">https://www.facebook.com/udruga.sattva</string>
 
 
     <!-- SendButton text-->

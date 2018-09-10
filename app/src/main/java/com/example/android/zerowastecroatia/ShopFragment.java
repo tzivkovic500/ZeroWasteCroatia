@@ -40,6 +40,8 @@ public class ShopFragment extends Fragment {
         tour.add(new Tour(R.drawable.zdravi_ducan, R.string.zdravi_ducan, R.string.food15, getString(R.string.loc15), getString(R.string.web15)));
         tour.add(new Tour(R.drawable.witch_house, R.string.witch_house, R.string.food16, getString(R.string.loc16), getString(R.string.web16)));
         tour.add(new Tour(R.drawable.uberi_ovo, R.string.uberi_ovo, R.string.food17, getString(R.string.loc17), getString(R.string.web17)));
+        tour.add(new Tour(R.drawable.humana_nova, R.string.humana_nova, R.string.food19, getString(R.string.loc19), getString(R.string.web19)));
+        tour.add(new Tour(R.drawable.naj_caj, R.string.naj_caj, R.string.food22, getString(R.string.loc22), getString(R.string.web22)));
 
 
 

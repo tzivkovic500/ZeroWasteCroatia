@@ -25,15 +25,7 @@ public class ShopFragment extends Fragment {
         // // Create a list of  places to eat
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour(R.drawable.speceraj, R.string.speceraj, R.string.food1, getString(R.string.loc1), getString(R.string.web1)));
-        tour.add(new Tour(R.drawable.greencajg, R.string.greencajg, R.string.food2, getString(R.string.loc2), getString(R.string.web2)));
-        tour.add(new Tour(R.drawable.hiza, R.string.hiza, R.string.food3, getString(R.string.loc3), getString(R.string.web3)));
-        tour.add(new Tour(R.drawable.mali_vrt, R.string.mali_vrt, R.string.food4, getString(R.string.loc4), getString(R.string.web4)));
-        tour.add(new Tour(R.drawable.neo_cupedia, R.string.neo_cupedia, R.string.food5, getString(R.string.loc5), getString(R.string.web5)));
-        tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.food6, getString(R.string.loc6), getString(R.string.web6)));
-        tour.add(new Tour(R.drawable.agrokutic, R.string.agrokutic, R.string.food7, getString(R.string.loc7), getString(R.string.web7)));
-        tour.add(new Tour(R.drawable.zabac, R.string.zabac, R.string.food8, getString(R.string.loc8), getString(R.string.web8)));
         tour.add(new Tour(R.drawable.kredenca_zdravlja, R.string.kredenca_zdravlja, R.string.food9, getString(R.string.loc9), getString(R.string.web9)));
-        tour.add(new Tour(R.drawable.vrutak, R.string.vrutak, R.string.food10, getString(R.string.loc10), getString(R.string.web10)));
         tour.add(new Tour(R.drawable.zrno_zivota, R.string.zrno_zivota, R.string.food11, getString(R.string.loc11), getString(R.string.web11)));
         tour.add(new Tour(R.drawable.ljubav_prirode, R.string.ljubav_pirode, R.string.food13, getString(R.string.loc13), getString(R.string.web13)));
         tour.add(new Tour(R.drawable.refuzo, R.string.refuzo, R.string.food14, getString(R.string.loc14), getString(R.string.web14)));
